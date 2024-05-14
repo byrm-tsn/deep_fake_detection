@@ -1,0 +1,55 @@
+{% extends 'base2.html' %}
+{% load static %}
+{% block content %}
+<div class="main-container">
+  <div class="heading">
+    <p>Deep Fake <br /><span id="auto-anim"></span></p>
+  </div>
+
+  <div class="video-container py-4 px-5">
+    <p class="video-container-heading my-1">
+      Video Records
+    </p>
+
+    <!-- Table displaying video records -->
+    <table class="table">
+      <thead>
+        <tr>
+          <th scope="col">#</th>
+          <th scope="col">Video</th>
+          <th scope="col">Status</th>
+        </tr>
+      </thead>
+      <tbody>
+        {% for video in videos %}
+        <tr>
+          <th scope="row">{{ forloop.counter }}</th>
+          <td>{{ video.file.name|slice:"6:" }}</td> <!-- Remove 'media/' prefix -->
+          <td class="{% if video.status == 'R' %}text-success{% else %}text-danger{% endif %}">
+            {{ video.get_status_display }}
+          </td>
+        </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  </div>
+</div>
+
+<!-- Typed.js for animated text -->
+<script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+<!-- jQuery -->
+<script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+
+<script>
+  // Initialize Typed.js animation on page load
+  document.addEventListener("DOMContentLoaded", function () {
+    const typed = new Typed("#auto-anim", {
+      strings: ["Detector", "Video Detection"],
+      typeSpeed: 100,
+      backSpeed: 100,
+      loop: true,
+    });
+  });
+</script>
+
+{% endblock %}
