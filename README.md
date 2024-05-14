@@ -1,7 +1,5 @@
 # Deepfake Detection Django App
 
-
-
 ## Overview
 
 This repository contains a Django web application designed to detect deepfake videos. The detection is powered by a CNN+LSTM model trained on the Celeb-DF and FaceForensics++ datasets using TensorFlow-GPU.
@@ -14,11 +12,9 @@ This repository contains a Django web application designed to detect deepfake vi
 - **Datasets Used**: Celeb-DF and FaceForensics++.
 - **GPU Acceleration**: Utilizes TensorFlow-GPU for faster processing.
 
-## Demo
-
 Watch the demo video below to see the application in action:
 
-
+<iframe width="560" height="315" src="[https://www.youtube.com/embed/VIDEO_ID](https://www.youtube.com/watch?v=a-QFrSz9fhg)" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Installation
 
@@ -27,11 +23,11 @@ Watch the demo video below to see the application in action:
 - Python 3.9
 - Django 4.2.12
 - TensorFlow-GPU 2.10.1
-- CUDA Toolkit 
-- cuDNN 
+- CUDA Toolkit
+- cuDNN
 
 ### Clone the Repository
 
 ```bash
-git clone [https://github.com/yourusername/deepfake-detection-django-app.git](https://github.com/byrm-tsn/deep_fake_detection/tree/main)
+git clone https://github.com/byrm-tsn/deep_fake_detection.git
 cd deep_fake_detection
