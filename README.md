@@ -40,3 +40,4 @@ If you want to read my report, you can find it [here](https://github.com/byrm-ts
 ```bash
 git clone https://github.com/byrm-tsn/deep_fake_detection.git
 cd deep_fake_detection
+python manage.py runserver
