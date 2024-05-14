@@ -12,9 +12,15 @@ This repository contains a Django web application designed to detect deepfake vi
 - **Datasets Used**: Celeb-DF and FaceForensics++.
 - **GPU Acceleration**: Utilizes TensorFlow-GPU for faster processing.
 
+## Demo
+
 Watch the demo video below to see the application in action:
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/a-QFrSz9fhg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+[![Watch the demo video](https://img.youtube.com/vi/a-QFrSz9fhg/0.jpg)](https://www.youtube.com/watch?v=a-QFrSz9fhg)
+
+## Report
+
+If you want to read my report, you can find it [here](link-to-your-report).
 
 ## Installation
 
