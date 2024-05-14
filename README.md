@@ -20,7 +20,7 @@ Watch the demo video below to see the application in action:
 
 ## Report
 
-If you want to read my report, you can find it [here](link-to-your-report).
+If you want to read my report, you can find it [here](https://github.com/byrm-tsn/deep_fake_detection/blob/main/Documentation/deepfake_detection_fyp_report.pdf).
 
 ## Installation
 
@@ -37,3 +37,7 @@ If you want to read my report, you can find it [here](link-to-your-report).
 ```bash
 git clone https://github.com/byrm-tsn/deep_fake_detection.git
 cd deep_fake_detection
+
+### Technologies Used
+
+[![My Skills](https://skillicons.dev/icons?i=vscode,github,django,js,html,css,git,opencv,py,tensorflow)](https://skillicons.dev)
