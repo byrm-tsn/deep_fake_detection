@@ -16,7 +16,7 @@ This repository contains a Django web application designed to detect deepfake vi
 
 Watch the demo video below to see the application in action:
 
-[![Watch the demo video](https://img.youtube.com/vi/a-QFrSz9fhg/0.jpg)](https://www.youtube.com/watch?v=a-QFrSz9fhg)
+[Watch the demonstration](https://img.youtube.com/vi/a-QFrSz9fhg/0.jpg)](https://www.youtube.com/watch?v=a-QFrSz9fhg)
 
 ## Report
 
@@ -40,5 +40,3 @@ If you want to read my report, you can find it [here](https://github.com/byrm-ts
 ```bash
 git clone https://github.com/byrm-tsn/deep_fake_detection.git
 cd deep_fake_detection
-
-
