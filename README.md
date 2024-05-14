@@ -3,7 +3,7 @@
 ## Overview
 
 This repository contains a Django web application designed to detect deepfake videos. The detection is powered by a CNN+LSTM model trained on the Celeb-DF and FaceForensics++ datasets using TensorFlow-GPU.
-![Deepfake Detection](core/static/Images/Screenshot 2024-05-15 at 00.48.51.png)
+![Deepfake Detection](core/static/Images/ss.png)
 ## Features
 
 - **Deepfake Detection**: Upload a video to check if it is a deepfake.
