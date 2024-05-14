@@ -31,6 +31,9 @@ If you want to read my report, you can find it [here](https://github.com/byrm-ts
 - TensorFlow-GPU 2.10.1
 - CUDA Toolkit
 - cuDNN
+### Technologies Used
+
+[![My Skills](https://skillicons.dev/icons?i=vscode,github,django,js,html,css,git,opencv,py,tensorflow)](https://skillicons.dev)
 
 ### Clone the Repository
 
@@ -38,6 +41,4 @@ If you want to read my report, you can find it [here](https://github.com/byrm-ts
 git clone https://github.com/byrm-tsn/deep_fake_detection.git
 cd deep_fake_detection
 
-### Technologies Used
 
-[![My Skills](https://skillicons.dev/icons?i=vscode,github,django,js,html,css,git,opencv,py,tensorflow)](https://skillicons.dev)
