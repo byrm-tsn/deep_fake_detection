@@ -14,7 +14,7 @@ This repository contains a Django web application designed to detect deepfake vi
 
 Watch the demo video below to see the application in action:
 
-<iframe width="560" height="315" src="[https://www.youtube.com/embed/VIDEO_ID](https://www.youtube.com/watch?v=a-QFrSz9fhg)" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/https://www.youtube.com/watch?v=a-QFrSz9fhg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Installation
 
