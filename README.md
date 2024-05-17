@@ -31,8 +31,8 @@ If you want to read my report, you can find it [here](https://github.com/byrm-ts
 - Python 3.9
 - Django 4.2.12
 - TensorFlow-GPU 2.10.1
-- CUDA Toolkit
-- cuDNN
+- CUDA Toolkit v2.14
+- cuDNN v9.0
 ### Technologies Used
 
 [![My Skills](https://skillicons.dev/icons?i=vscode,github,django,js,html,css,git,opencv,py,tensorflow)](https://skillicons.dev)
